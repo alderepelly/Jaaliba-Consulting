@@ -8,16 +8,15 @@
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
-
-  <!-- HEADER -->
   <header class="header">
     <div class="container header-inner">
-
-      <!-- Nouveau logo -->
       <div class="logo">
-        <img src="assets/img/logo.jpeg" alt="Logo Jaaliba Consulting" style="height:55px; width:auto;">
+        <span class="logo-mark">J</span>
+        <span class="logo-text">
+          <span class="logo-name">Jaaliba Consulting</span>
+          <span class="logo-tagline">Ingénierie & Conseil</span>
+        </span>
       </div>
-
       <nav class="nav">
         <button class="nav-toggle" aria-label="Ouvrir le menu">
           ☰
@@ -35,7 +34,6 @@
   </header>
 
   <main>
-
     <!-- HERO -->
     <section id="accueil" class="hero">
       <div class="container hero-inner">
@@ -59,7 +57,6 @@
             <span>Accompagnement de bout en bout</span>
           </div>
         </div>
-
         <div class="hero-panel">
           <div class="hero-stats">
             <div class="stat">
@@ -222,41 +219,41 @@
       </div>
     </section>
 
-    <!-- VALEURS -->
+    <!-- VALEURS & METHODO -->
     <section id="valeurs" class="section section-alt">
       <div class="container values-grid">
         <div>
           <h2>Notre approche</h2>
           <p>
             Nous combinons expertise technique, compréhension du terrain guinéen
-            et culture du résultat.
+            et culture du résultat. Chaque mission fait l'objet d'un cadrage clair,
+            d'indicateurs de performance et d'un accompagnement rapproché.
           </p>
           <ol class="steps">
-            <li><strong>1. Diagnostic</strong> – Analyse de votre contexte.</li>
-            <li><strong>2. Conception</strong> – Propositions techniques.</li>
-            <li><strong>3. Mise en œuvre</strong> – Suivi et pilotage.</li>
-            <li><strong>4. Transfert</strong> – Documentation & formation.</li>
+            <li><strong>1. Diagnostic</strong> – Analyse de votre contexte et de vos objectifs.</li>
+            <li><strong>2. Conception</strong> – Propositions de solutions et scénarios techniques.</li>
+            <li><strong>3. Mise en œuvre</strong> – Assistance à la réalisation et au pilotage.</li>
+            <li><strong>4. Transfert</strong> – Formation, documentation et amélioration continue.</li>
           </ol>
         </div>
-
         <div>
           <h2>Nos valeurs</h2>
           <div class="values-list">
             <div class="value-item">
               <h3>Proximité</h3>
-              <p>Compréhension fine du terrain guinéen.</p>
+              <p>Présence locale en Guinée, compréhension fine des réalités du terrain.</p>
             </div>
             <div class="value-item">
               <h3>Indépendance</h3>
-              <p>Recommandations objectives et adaptées.</p>
+              <p>Nous recommandons les solutions les plus adaptées, pas les plus à la mode.</p>
             </div>
             <div class="value-item">
               <h3>Innovation responsable</h3>
-              <p>Solutions durables et efficaces.</p>
+              <p>Technologies utiles, durables et adaptées à vos contraintes opérationnelles.</p>
             </div>
             <div class="value-item">
               <h3>Résultats mesurables</h3>
-              <p>Impact concret et suivi rigoureux.</p>
+              <p>Des livrables concrets, des indicateurs clairs, un impact réel.</p>
             </div>
           </div>
         </div>
@@ -270,27 +267,30 @@
           <h2>À propos de Jaaliba Consulting</h2>
           <p>
             Jaaliba Consulting est un cabinet de conseil en ingénierie et en finance
-            basé en Guinée.
+            basé en Guinée. Nous rassemblons des ingénieurs et experts issus de
+            différents domaines pour apporter une réponse complète aux projets
+            de nos clients.
           </p>
           <p>
-            Notre ambition : devenir un partenaire de référence en Guinée et en Afrique de l'Ouest.
+            Notre ambition : devenir un partenaire de référence pour les projets
+            techniques et stratégiques en Guinée et en Afrique de l'Ouest, en
+            mettant l'accent sur la qualité, la transparence et la transmission
+            de compétences.
           </p>
         </div>
-
         <div class="about-highlights">
           <div class="card about-card">
             <h3>Ce que nous apportons</h3>
             <ul>
-              <li>Vision systémique</li>
-              <li>Adaptation rapide</li>
-              <li>Réseau de partenaires</li>
+              <li>Une vision systémique des projets</li>
+              <li>Une forte capacité d'adaptation</li>
+              <li>Un réseau de partenaires locaux et internationaux</li>
             </ul>
           </div>
-
           <div class="card about-card">
             <h3>Type de missions</h3>
             <ul>
-              <li>Études techniques</li>
+              <li>Études et audits techniques</li>
               <li>Assistance à maîtrise d'ouvrage</li>
               <li>Conseil stratégique & financier</li>
               <li>Formation & transfert de compétences</li>
@@ -306,17 +306,20 @@
         <div>
           <h2>Entrer en contact</h2>
           <p>
-            Parlez-nous de votre projet. Nous revenons vers vous rapidement.
+            Parlez-nous de votre projet ou de vos besoins. Nous reviendrons vers vous
+            rapidement avec des premières pistes d'accompagnement.
           </p>
           <ul class="contact-info">
             <li><strong>Email :</strong> <a href="mailto:contact@jaaliba-consulting.com">contact@jaaliba-consulting.com</a></li>
             <li><strong>Téléphone :</strong> +224 XX XX XX XX</li>
             <li><strong>Localisation :</strong> Guinée</li>
           </ul>
+          <p class="contact-note">
+            Vous pouvez également nous contacter via LinkedIn ou WhatsApp si vous le souhaitez.
+          </p>
         </div>
-
         <div>
-          <form class="contact-form">
+          <form class="contact-form" action="#" method="post">
             <div class="form-group">
               <label for="name">Nom complet</label>
               <input type="text" id="name" name="name" placeholder="Votre nom" required />
@@ -331,21 +334,24 @@
             </div>
             <div class="form-group">
               <label for="message">Message</label>
-              <textarea id="message" name="message" rows="4" placeholder="Décrivez votre besoin"></textarea>
+              <textarea id="message" name="message" rows="4" placeholder="Décrivez votre besoin ou votre projet"></textarea>
             </div>
             <button type="submit" class="btn btn-primary btn-full">Envoyer le message</button>
+            <p class="form-disclaimer">
+              Ce formulaire est un exemple statique. Sur votre version en ligne, il pourra être relié à votre email ou à un outil CRM.
+            </p>
           </form>
         </div>
-
       </div>
     </section>
-
   </main>
 
   <footer class="footer">
     <div class="container footer-inner">
       <p>© <span id="year"></span> Jaaliba Consulting – Tous droits réservés.</p>
-      <p class="footer-meta">Site vitrine statique pour GitHub Pages.</p>
+      <p class="footer-meta">
+        Site vitrine statique pour GitHub Pages.
+      </p>
     </div>
   </footer>
 
